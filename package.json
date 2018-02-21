@@ -1,0 +1,22 @@
+{
+  "name": "shame",
+  "version": "0.0.1",
+  "description": "Detect and remove shamefull code from your project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'write tests'",
+    "build": "gulp"
+  },
+  "keywords": [
+    "shame",
+    "cli",
+    "code-quality"
+  ],
+  "author": "rafi993",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "walk": "^2.3.9"
+  }
+}
