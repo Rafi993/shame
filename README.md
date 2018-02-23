@@ -1,8 +1,8 @@
 ## Shame
-Some times due to urgency you may have added some fix to your code that you are not proud of and may want to remove it. Mark the shamfull portion of your code as
+Some times due to urgency you may have added some fix to your code that you are not proud of and may want to remove it. Mark the shameful portion of your code as
 
 ````
-// @shame This is a function that does something shamefull remove it later
+// @shame This is a function that does something shameful remove it later
 function getData(){
   // something shamefull
 }
