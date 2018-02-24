@@ -17,9 +17,20 @@ in your package.json or anything similar depending on your language
  'build': 'shame --t 6 && **your build code**
 ````
 
+to use as cli do
+
+````
+npm i -g shame
+````
+
+and in your project directory ````shame -t 6```
+
+##NOTE:
+It is preferable to add .gitignore to prevent shame from reading node_modules or other libs
+
 ## Things to do
 
-- [ ] publish as npm package
+- [x] publish as npm package
 - [ ] Assign weights to shame
 - [ ] Ability find changes in **shame entropy** between two commits
 - [ ] .. awesome ideas are welcomed ..
