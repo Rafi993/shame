@@ -68,7 +68,7 @@ const checkShameThreshold = () => {
             shameList[x].forEach(y => {
                 console.log('       ' + y)
             })
-            exit(0)
+            process.exit()
         })
     } else {
         console.log(chalk.bgGreen(' You are good to go  '))
@@ -89,7 +89,6 @@ if (options.shameThreshold >= 0) {
                 checkShameThreshold();
             })
         } else {
-            console.log(chalk.bgYellow('.gitignore file is not found please consider adding it'))
             checkShameThreshold();
         }
     })
