@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // Node libraries
 const fs = require('fs'),
     readline = require('readline'),
