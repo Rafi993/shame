@@ -19,6 +19,7 @@ in your package.json or anything similar depending on your language
 
 ## Things to do
 
-[ ] Assign weights to shame
-[ ] Ability to use git to store change in your **shame entropy** of your project across time
-[ ] .. awesome ideas are welcomed ..
+- [ ] publish as npm package
+- [ ] Assign weights to shame
+- [ ] Ability find changes in **shame entropy** between two commits
+- [ ] .. awesome ideas are welcomed ..
