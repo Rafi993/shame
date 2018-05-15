@@ -7,8 +7,14 @@ function getData(){
   // something shamefull
 }
 ````
-
-when shame accumulates in your code more than your **shame factor** this package will not let you
+or
+````
+// @shame::3.6 This is a less weighted shame
+function getData(){
+  // something shameful
+}
+````
+to add weights to the shame. when shame accumulates in your code more than your **shame factor** this package will not let you
 build
 
 in your package.json or anything similar depending on your language
@@ -23,14 +29,23 @@ to use as cli do
 npm i -g shame
 ````
 
-and in your project directory ````shame -t 6```
+In your project directory,
+````
+shame -t 6
+````
+will set a shame threshold of 6
+and
+````
+shame -w 10
+````
+will set the total weights of the shame to 10
 
-##NOTE:
+## NOTE:
 It is preferable to add .gitignore to prevent shame from reading node_modules or other libs
 
 ## Things to do
 
 - [x] publish as npm package
-- [ ] Assign weights to shame
+- [x] Assign weights to shame
 - [ ] Ability find changes in **shame entropy** between two commits
 - [ ] .. awesome ideas are welcomed ..

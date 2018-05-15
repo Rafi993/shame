@@ -8,8 +8,8 @@
     "test": "echo 'write tests'"
   },
   "bin": {
-   "shame": "./index.js"
-   },
+    "shame": "./index.js"
+  },
   "keywords": [
     "shame",
     "cli",
