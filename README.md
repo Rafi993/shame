@@ -1,5 +1,5 @@
 ## Shame
-Some times due to urgency you may have added some fix to your code that you are not proud of and may want to remove it. Mark the shameful portion of your code as
+Some times due to urgency you may have added some fix to your code that you are not proud of and want to remove it. Mark the shameful portion of your code as
 
 ````
 // @shame This is a function that does something shameful remove it later
@@ -9,39 +9,18 @@ function getData(){
 ````
 or
 ````
-// @shame::3.6 This is a less weighted shame
+// @shame::3.6 you can specify weight to each shame
 function getData(){
   // something shameful
 }
 ````
-to add weights to the shame. when shame accumulates in your code more than your **shame factor** this package will not let you
-build
+when shame accumulates in your code more than your **shame factor** this package will not let you build
 
-in your package.json or anything similar depending on your language
+in your package.json you can specify
 
 ````
  'build': 'shame --t 6 && **your build code**
 ````
-
-to use as cli do
-
-````
-npm i -g shame
-````
-
-In your project directory,
-````
-shame -t 6
-````
-will set a shame threshold of 6
-and
-````
-shame -w 10
-````
-will set the total weights of the shame to 10
-
-## NOTE:
-It is preferable to add .gitignore to prevent shame from reading node_modules or other libs
 
 ## Things to do
 
